@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardTournament"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="12dp"
+    app:cardBackgroundColor="#0F172A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- IMAGE SECTION -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:id="@+id/imgTournament"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgmi_logo" />
+
+            <!-- DARK OVERLAY -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#40000000"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <!-- LIVE BADGE -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="● LIVE"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="#E53935"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="start|top" />
+
+            <!-- WATCH ICON -->
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_gravity="end|top"
+                android:layout_margin="10dp"
+                app:tint="#FFFFFF" />
+
+        </FrameLayout>
+
+        <!-- CONTENT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <!-- TITLE -->
+            <TextView
+                android:id="@+id/tvTournamentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BGMI Pro League"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- GAME TYPE -->
+            <TextView
+                android:id="@+id/tvTournamentType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BGMI Tournament"
+                android:textColor="#94A3B8"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- PRIZE -->
+            <TextView
+                android:id="@+id/tvTournamentPrize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹10,000 Prize Pool"
+                android:textColor="#22C55E"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <!-- ENTRY FEE -->
+            <TextView
+                android:id="@+id/tvEntryFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry ₹50"
+                android:textColor="#FACC15"
+                android:layout_marginTop="2dp" />
+
+            <!-- DESCRIPTION -->
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compete with top players and win amazing rewards."
+                android:textColor="#CBD5E1"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <!-- BUTTON -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCreateTeam"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Register Now"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="12dp"
+                app:cornerRadius="14dp"
+                android:backgroundTint="#2563EB" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

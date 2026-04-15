@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#4CAF50</color>
+
+    <color name="purple_500">#7C3AED</color>
+    <color name="purple_400">#8B5CF6</color>
+    <color name="purple_200">#C4B5FD</color>
+
+
+
+    <color name="gray_dark">#1E1E2E</color>
+    <color name="gray_medium">#2A2A40</color>
+    <color name="gray_light">#9CA3AF</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- MAIN UI -->
+    <color name="bg_dark">#020617</color>
+    <color name="card_dark">#0F172A</color>
+    <color name="stroke">#1E293B</color>
+
+    <!-- TEXT -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#94A3B8</color>
+
+    <!-- COLORS -->
+    <color name="blue_primary">#3B82F6</color>
+    <color name="blue_light">#60A5FA</color>
+
+    <color name="green_primary">#22C55E</color>
+    <color name="yellow_primary">#F59E0B</color>
+    <color name="red_primary">#EF4444</color>
+
+    <!-- OPTIONAL -->
+    <color name="purple_primary">#7C3AED</color>
+
+    <!-- GRADIENT -->
+    <color name="gradient_start">#1E3A8A</color>
+    <color name="gradient_end">#020617</color>
+
+
+
+        <!-- TEXT COLORS -->
+        <color name="text_main">#FFFFFF</color>
+        <color name="text_sub">#C7C9D9</color>
+        <color name="text_hint">#9CA3AF</color>
+        <color name="text_link">#3BB3FF</color>
+        <color name="text_button">#FFFFFF</color>
+        <color name="text_error">#FF6B6B</color>
+        <color name="text_success">#22C55E</color>
+        <color name="text_disable">#6B7280</color>
+
+        <!-- BRAND -->
+        <color name="sutrio_blue">#3BB3FF</color>
+        <color name="sutrio_purple">#9B5CFF</color>
+        <color name="sutrio_purple_light">#C77DFF</color>
+        <color name="sutrio_dark">#0A0F24</color>
+
+        <!-- BACKGROUND -->
+        <color name="bg_dark_primary">#0A0F24</color>
+        <color name="bg_dark_secondary">#1E1445</color>
+        <color name="bg_dark_tertiary">#2A1458</color>
+
+        <!-- INPUT -->
+        <color name="input_background">#11162F</color>
+        <color name="input_border_focus">#3BB3FF</color>
+        <color name="card_background">#11162F</color>
+
+
+</resources>

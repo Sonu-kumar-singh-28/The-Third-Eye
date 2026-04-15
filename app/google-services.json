@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601009441809",
+    "project_id": "the-third-eye-dd420",
+    "storage_bucket": "the-third-eye-dd420.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601009441809:android:7e270ffed538ea3ba275b0",
+        "android_client_info": {
+          "package_name": "com.thethirdeye.esport.thethirdeye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3aRTEOQGC9Jt-OFCoRd6oLt0yzG1Hqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

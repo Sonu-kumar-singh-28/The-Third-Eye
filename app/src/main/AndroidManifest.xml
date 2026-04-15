@@ -17,9 +17,6 @@
             android:name=".stream.StreamActivity"
             android:exported="false" />
         <activity
-            android:name=".RoomActivity"
-            android:exported="false" />
-        <activity
             android:name=".rooms.RoomCreateActivity"
             android:exported="false" />
         <activity
@@ -28,9 +25,7 @@
         <activity
             android:name=".match.MatchHistoryActivity"
             android:exported="false" />
-        <activity
-            android:name=".match.MatchHistoryActivity"
-            android:exported="false" />
+
         <activity
             android:name=".admin.CreateTournamentActivity"
             android:exported="false" />

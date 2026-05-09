@@ -48,6 +48,8 @@ loadFragment(TournamentFragment())
                 }
                 true
             }
+
+        // Bottom Nav Bar Handling
     }
 
     private fun loadFragment(fragment: Fragment) {
